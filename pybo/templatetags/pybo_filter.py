@@ -12,4 +12,4 @@ def sub(value, arg):
 @register.filter()
 def mark(value):
     extenstions = ["nl2br", "fenced_code"]
-    return mark_safe(markdown.markdown(value, extensions=extenstions))
+    return mark_safe(markdown.markdown(value,extensions=extenstions))
